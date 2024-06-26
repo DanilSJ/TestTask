@@ -23,7 +23,7 @@ def save_images_as_tiff(images, output_file):
         append_images=images[1:],
         compression="tiff_deflate"
     )
-    print(f"Сохраненно {len(images)} изображений в {output_file}")
+    print(f"Сохранено {len(images)} изображений в {output_file}")
 
 def main(folder_list, output_file):
     images = collect_images_from_folders(folder_list)
